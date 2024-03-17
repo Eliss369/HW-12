@@ -6,14 +6,13 @@
   --dark-blue-color: #2f303a;
 }
 .container {
-  width: 1200px;
+  width: 1170px;
   height: 281px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   outline: 1px solid var(--dark-blue-color);
-  background-color: var(--dark-blue-color);
 }
 .footer {
   width: 1600px;
@@ -135,4 +134,7 @@ body {
   color: inherit;
   line-height: 36px;
   font-size: 18px;
+}
+section {
+  margin-bottom: 130px;
 }
