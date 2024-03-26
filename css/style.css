@@ -131,7 +131,9 @@ body {
 }
 
 .team,
-.photos {
+.photos,
+.portfolio,
+.header {
   margin-bottom: 94px;
 }
 .advatages {
