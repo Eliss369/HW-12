@@ -5,45 +5,6 @@
   --white-color: #ffff;
   --dark-blue-color: #2f303a;
 }
-.container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 1px solid var(--dark-blue-color);
-}
-
-.footer {
-  width: 1600px;
-  height: 252px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  outline: 1px solid var(--dark-blue-color);
-  background-color: var(--dark-blue-color);
-}
-.hero-button {
-  width: 216px;
-  height: 50px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  outline: 1px solid var(--blue-color);
-  background-color: var(--blue-color);
-  color: var(--white-color);
-  font-size: 16px;
-  line-height: 30px;
-}
-.header {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid var(--grey-color);
-  background-color: var(--white-color);
-}
-
 body {
   font-family: "Roboto";
   font-size: 14px;
@@ -51,6 +12,33 @@ body {
   line-height: calc(24 / 14);
   color: var(--black-color);
 }
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid var(--dark-blue-color);
+}
+/* header */
+.header {
+}
+/* hero  */
+.hero {
+  background-color: var(--dark-blue-color);
+  text-align: center;
+  height: 600px;
+  width: 1600px;
+  margin: 0 auto;
+}
+.hero-button {
+  width: 216px;
+  height: 50px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+
 .header-nav-item,
 .footer-logo {
   line-height: 31px;
@@ -74,13 +62,13 @@ body {
   color: var(--white-color);
 }
 
-[class$="list-title"] {
+.list-title {
   line-height: 16.41px;
 }
 .photos-text {
   line-height: 18px;
 }
-[class*="header-web"] {
+.header-web {
   color: var(--blue-color);
   line-height: 30.52px;
 }
@@ -133,6 +121,19 @@ body {
   line-height: 36px;
   font-size: 18px;
 }
-section {
-  text-align: center;
+
+/* footer */
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: var(--dark-blue-color);
+  margin: 0 auto;
+}
+
+.team,
+.photos {
+  margin-bottom: 94px;
+}
+.advatages {
+  margin-bottom: 118px;
 }
