@@ -130,10 +130,9 @@ body {
   margin: 0 auto;
 }
 
-.team,
+.hero,
 .photos,
-.portfolio,
-.header {
+.portfolio {
   margin-bottom: 94px;
 }
 .advatages {
