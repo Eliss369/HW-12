@@ -131,10 +131,13 @@ body {
 }
 
 .hero,
-.photos,
-.portfolio {
+.photos {
   margin-bottom: 94px;
 }
 .advatages {
   margin-bottom: 118px;
+}
+.portfolio {
+  margin-bottom: 94px;
+  margin-top: 94px;
 }
